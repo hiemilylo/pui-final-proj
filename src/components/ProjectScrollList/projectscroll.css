@@ -1,0 +1,14 @@
+.section-container {
+    height: 40vh;
+    overflow-y: scroll;
+    transition-duration: 0.5s;
+    scroll-snap-type: y mandatory;
+}
+
+section {
+    height: 20vh;
+    scroll-snap-align: start;
+    background: white;
+    margin-bottom: 10vh;
+    color: black;
+}
