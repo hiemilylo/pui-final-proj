@@ -9,9 +9,6 @@ import "./projectscroll.css";
 
 const ProjectScrollList = () => {
   const print = () => {
-      console.log('hi!');
-      console.log(document.querySelector('.is-current'));
-      console.log(document.querySelector('.is-current > a').innerHTML);
       let section = document.querySelector('.is-current > a').innerHTML;
       let bckgrnd = document.querySelector('.section-container');
       switch (section) {
@@ -28,7 +25,7 @@ const ProjectScrollList = () => {
   }
   return (
     <div className="scroll-container">
-        <h3> hi! </h3>
+        <h3> Scrolling section </h3>
         <div class="section-container">
             <section id="section-1">section 1</section>
             <section id="section-2">section 2</section>
