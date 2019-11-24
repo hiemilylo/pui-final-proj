@@ -3,39 +3,28 @@ import React from "react";
 // import appRoutes from "../../shared/appRoutes";
 // import MovieList from "../MoviesPage/movieList.js";
 
-import logo from '../../logo.svg';
-// import Scrollspy from 'react-scrollspy';
+// import logo from '../../logo.svg';
 import { Waypoint } from 'react-waypoint';
 import "./projectscroll.css";
 
 const ProjectScrollList = () => {
-  const print = () => {
-      let section = document.querySelector('.is-current > a').innerHTML;
-      let bckgrnd = document.querySelector('.section-container');
-      switch (section) {
-        case 'section 1':
-            bckgrnd.style.background = 'green';
-            break;
-        case 'section 2':
-            bckgrnd.style.background = 'red';
-            break;
-        case 'section 3':
-            bckgrnd.style.background = 'blue';
-            break;
-      }
-  }
-
   const changeBckgnd = (secId) => () => {
     let bckgrnd = document.querySelector('.section-container');
     switch (secId) {
       case 1:
-          bckgrnd.style.background = 'green';
+          bckgrnd.style['background-image'] = 'url(https://dxaurk9yhilm4.cloudfront.net/images/569/chileno_landscape_2cbd80a0345be3b5a0b7649a1a2d057f.jpg)';
+          bckgrnd.style.color = 'none';
           break;
       case 2:
-          bckgrnd.style.background = 'red';
+          bckgrnd.style['background-image'] = 'url(https://dxaurk9yhilm4.cloudfront.net/images/291/Bakers-hero_e5c6ae03864007f58832dde55a8f653b.jpg)';
+          bckgrnd.style.color = 'none';
           break;
       case 3:
-          bckgrnd.style.background = 'blue';
+          bckgrnd.style['background-image'] = 'url(https://dxaurk9yhilm4.cloudfront.net/images/352/driftwood3-carousel_2cbd80a0345be3b5a0b7649a1a2d057f.jpg)';
+          bckgrnd.style.color = 'none';
+          break;
+      default:
+          bckgrnd.style.background = 'white';
           break;
     }
   }
@@ -43,7 +32,7 @@ const ProjectScrollList = () => {
   return (
     <div className="scroll-container">
         <h3> Scrolling section </h3>
-        <div class="section-container">
+        <div className="section-container">
             <Waypoint onEnter={changeBckgnd(1)} >
                 <section id="section-1">section 1
                 </section>
@@ -57,14 +46,6 @@ const ProjectScrollList = () => {
                 </section>
             </Waypoint>
         </div>
-        {/* <Scrollspy items={ ['section-1', 'section-2', 'section-3'] }
-                   rootEl=".section-container"
-                   onUpdate = {print}
-                   currentClassName="is-current">
-            <li><a href="#section-1">section 1</a></li>
-            <li><a href="#section-2">section 2</a></li>
-            <li><a href="#section-3">section 3</a></li>
-        </Scrollspy> */}
     </div>
   );
 };
