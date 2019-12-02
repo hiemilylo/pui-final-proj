@@ -1,3 +1,7 @@
+.parent {
+    position: relative;
+}
+
 .section-container {
     height: 40vh;
     width: 50vw;
@@ -6,12 +10,14 @@
     transition: background-image 0.2s ease-in-out;
     transition-duration: 0.5s;
     scroll-snap-type: y mandatory;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 section {
     height: 30vh;
     scroll-snap-align: start;
-    /* background: white; */
     margin-bottom: 10vh;
     color: black;
 }
