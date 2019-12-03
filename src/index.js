@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import { BrowserRouter as Router } from "react-router-dom";
 // import { ParallaxProvider } from 'react-scroll-parallax';
-
 import * as serviceWorker from './serviceWorker';
 
 const app = (

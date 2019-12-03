@@ -1,0 +1,11 @@
+.navbar-brand {
+  height: 40px;
+}
+
+nav {
+  background-color: black;
+}
+
+.nav-item {
+  font-family: 'Lato', sans-serif;
+}
