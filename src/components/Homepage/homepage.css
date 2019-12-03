@@ -6,17 +6,23 @@ body {
 }
 
 .body-container {
-    margin: 10vh 15vw;
+    margin: 0 15vw;
     text-align: left;
     width: 50vw;
     color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow-y: scroll;
 }
 
-h3 {
+.home-name {
     font-size: 4em;
+    padding-top: 10vh;
 }
 
-h5 {
+.home-text {
     font-size: 3em;
     font-weight: normal;
+    padding: 50px 0;
 }

@@ -10,8 +10,10 @@ import "./homepage.css";
 const Homepage = () => {
   return (
     <div className="body-container">
-        <h3>Emily Lo</h3>
-        <h5>I'm a software engineer born and raised in California. I study CS at Carnegie Mellon.</h5>
+        <h3 className="home-name">Emily Lo</h3>
+        <h5 className="home-text">I'm a software engineer born and raised in California. I study CS at Carnegie Mellon.</h5>
+        <h5 className="home-text">Previously, I interned at Amazon, Microsoft, and Squarespace.</h5>
+        <h5 className="home-text">This March, I'm stoked to join Affirm.</h5>
     </div>
   );
 };

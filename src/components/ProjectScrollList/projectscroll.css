@@ -1,18 +1,30 @@
+.scroll-container {
+    height: 90vh;
+    padding: 0 20vw;
+    overflow: none;
+}
+
+.project-header {
+    margin: 30px 0;
+}
+
 .parent {
     position: relative;
+    height: 70vh;
+    padding: 0 10vw;
 }
 
 .section-container {
+    padding: 0 5vw;
     height: 40vh;
-    width: 50vw;
+    width: 100%;
+    box-sizing: border-box;
     overflow-y: scroll;
-    -webkit-transition: background-image 0.2s ease-in-out;
-    transition: background-image 0.2s ease-in-out;
-    transition-duration: 0.5s;
     scroll-snap-type: y mandatory;
     position: absolute;
     left: 0;
     top: 0;
+    cursor: pointer;
 }
 
 section {
@@ -20,4 +32,9 @@ section {
     scroll-snap-align: start;
     margin-bottom: 10vh;
     color: black;
+    padding: 15vh 0;
+}
+
+section h3 {
+    color: white;
 }

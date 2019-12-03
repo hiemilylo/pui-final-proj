@@ -70,7 +70,7 @@ class ProjectScrollList extends Component {
   render() {
     return (
         <div className="scroll-container">
-            <h3> Scrolling section </h3>
+            <h3 className="project-header"> Scrolling section </h3>
             <div className="parent">
                 <Surface width={600} height={400}>
                     {this.state.progress > 0 ?
@@ -89,11 +89,13 @@ class ProjectScrollList extends Component {
                         </section>
                     </Waypoint>
                     <Waypoint onEnter={this.changeBckgnd(2)} >
-                        <section id="section-1">section 2
+                        <section id="section-2">
+                            <h3>Section 2</h3>
                         </section>
                     </Waypoint>
                     <Waypoint onEnter={this.changeBckgnd(3)} >
-                        <section id="section-1">section 3
+                        <section id="section-3">
+                            <h3>Section 3</h3>
                         </section>
                     </Waypoint>
                 </div>
