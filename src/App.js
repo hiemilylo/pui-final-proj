@@ -5,7 +5,7 @@ import appRoutes from "./shared/appRoutes";
 import NavBar from "./components/NavBar/NavBar";
 import Homepage from "./components/Homepage/homepage.js";
 import ProjectScrollList from "./components/ProjectScrollList/projectscrolllist.js";
-import './App.css';
+// import './App.css';
 
 function App() {
   return (

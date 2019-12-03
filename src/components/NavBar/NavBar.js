@@ -11,7 +11,7 @@ const NavBar = () => {
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container">
           <NavLink className="navbar-brand" to={appRoutes.home}>
-            {/* <img src={Logo} alt="logo" /> */}
+             Emily Lo
           </NavLink>
           <button
             className="navbar-toggler"
@@ -29,12 +29,12 @@ const NavBar = () => {
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
                 <NavLink className="nav-link" to={appRoutes.home} exact>
-                  Home
+                  About
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to={appRoutes.projects}>
-                  Characters
+                  Projects
                 </NavLink>
               </li>
             </ul>
