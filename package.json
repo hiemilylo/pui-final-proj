@@ -9,6 +9,7 @@
     "gl-transitions": "^1.43.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-fade-in": "^0.1.6",
     "react-gl-transition": "^1.19.2",
     "react-router": "^5.1.2",
     "react-router-dom": "^5.1.2",

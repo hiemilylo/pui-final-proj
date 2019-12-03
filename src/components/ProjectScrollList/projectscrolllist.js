@@ -10,6 +10,7 @@ import { Waypoint } from 'react-waypoint';
 import P1 from '../../assets/projects/p1.jpg';
 import P2 from '../../assets/projects/p2.jpg';
 import P3 from '../../assets/projects/p3.jpg';
+import FadeIn from 'react-fade-in';
 
 import "./projectscroll.css";
 
@@ -70,6 +71,7 @@ class ProjectScrollList extends Component {
   render() {
     return (
         <div className="scroll-container">
+            <FadeIn transitionDuration={1000}>
             <h3 className="project-header"> Scrolling section </h3>
             <div className="parent">
                 <Surface width={600} height={400}>
@@ -100,6 +102,7 @@ class ProjectScrollList extends Component {
                     </Waypoint>
                 </div>
             </div>
+            </FadeIn>
         </div>
     );
   }

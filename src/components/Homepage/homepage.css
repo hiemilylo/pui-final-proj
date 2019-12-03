@@ -5,15 +5,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-.body-container {
-    margin: 0 15vw;
+.my-container {
     text-align: left;
-    width: 50vw;
+    padding-right: 30vw;
     color: white;
-    position: absolute;
-    top: 0;
-    left: 0;
-    overflow-y: scroll;
 }
 
 .home-name {

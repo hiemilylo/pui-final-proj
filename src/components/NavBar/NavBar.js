@@ -8,7 +8,7 @@ import "bootstrap/dist/css/bootstrap.css";
 const NavBar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark">
+      <nav className="navbar navbar-expand-lg navbar-dark my-stuck">
         <div className="container">
           <NavLink className="navbar-brand" to={appRoutes.home}>
              Emily Lo
@@ -26,7 +26,7 @@ const NavBar = () => {
           </button>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav mr-auto">
+            <ul className="navbar-nav mr-auto navbar-right">
               <li className="nav-item">
                 <NavLink className="nav-link" to={appRoutes.home} exact>
                   About
