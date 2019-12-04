@@ -10,6 +10,8 @@ import { Waypoint } from 'react-waypoint';
 import P1 from '../../assets/projects/p1.jpg';
 import P2 from '../../assets/projects/p2.jpg';
 import P3 from '../../assets/projects/p3.jpg';
+import ScrollDown from '../../assets/scroll-down.png';
+
 import FadeIn from 'react-fade-in';
 
 import "./projectscroll.css";
@@ -49,6 +51,12 @@ class ProjectScrollList extends Component {
             this.state.currBackground !== this.state.nextBackground) {
             console.log('START');
             if (this.timer) {
+                while(this.state.progress <= 1) {
+                    // Speed up
+                    let newProg = this.state.progress + 0.04;
+                    this.setState({progress: newProg});
+                }
+                this.setState({progress: 0, currBackground: this.state.nextBackground});
                 clearInterval(this.timer);
             }
             this.timer = setInterval(() => {
@@ -58,7 +66,7 @@ class ProjectScrollList extends Component {
                     this.timer = null;
                     console.log('END');
                 }
-                let newProg = this.state.progress + 0.04;
+                let newProg = this.state.progress + 0.02;
                 this.setState({progress: newProg});
               }, 20);
         }
@@ -70,9 +78,9 @@ class ProjectScrollList extends Component {
 
   render() {
     return (
-        <div className="scroll-container">
+        <div className="scroll-container container">
             <FadeIn transitionDuration={1000}>
-            <h3 className="project-header"> Scrolling section </h3>
+            {/* <h3 className="project-header"> Scrolling section </h3> */}
             <div className="parent">
                 <Surface width={600} height={400}>
                     {this.state.progress > 0 ?
@@ -85,24 +93,33 @@ class ProjectScrollList extends Component {
                     : <LinearCopy>{this.state.currBackground}</LinearCopy>}
                 </Surface>
                 <div className="section-container">
-                    <Waypoint onEnter={this.changeBckgnd(1)} >
-                        <section id="section-1">
-                            <h3>Section 1</h3>
-                        </section>
-                    </Waypoint>
-                    <Waypoint onEnter={this.changeBckgnd(2)} >
-                        <section id="section-2">
-                            <h3>Section 2</h3>
-                        </section>
-                    </Waypoint>
-                    <Waypoint onEnter={this.changeBckgnd(3)} >
-                        <section id="section-3">
-                            <h3>Section 3</h3>
-                        </section>
-                    </Waypoint>
+                    <div className="section-waypoint">
+                        <Waypoint onEnter={this.changeBckgnd(1)}>
+                            <section id="section-1">
+                                <h3>Section 1</h3>
+                            </section>
+                        </Waypoint>
+                    </div>
+                    <div className="section-waypoint">
+                        <Waypoint onEnter={this.changeBckgnd(2)}>
+                            <section id="section-2">
+                                <h3>Section 2</h3>
+                            </section>
+                        </Waypoint>
+                    </div>
+                    <div className="section-waypoint">
+                        <Waypoint onEnter={this.changeBckgnd(3)}>
+                            <section id="section-3">
+                                <h3>Section 3</h3>
+                            </section>
+                        </Waypoint>
+                    </div>
                 </div>
             </div>
             </FadeIn>
+            <div className="scroll-indicator-container">
+                <img className="scroll-indicator" src={ScrollDown}/>
+            </div>
         </div>
     );
   }

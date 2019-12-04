@@ -1,8 +1,8 @@
 .scroll-container {
-    height: 90vh;
-    padding: 0 20vw;
-    padding-top: 10vh;
-    overflow: none;
+    /* height: 90vh; */
+    /* padding: 0 20vw; */
+    padding-top: 20vh;
+    /* overflow: scroll; */
 }
 
 .project-header {
@@ -10,14 +10,24 @@
     color: #DDDDDD;
 }
 
+.scroll-indicator-container {
+    text-align: center;
+    margin: 5vh 0;
+}
+
+.scroll-indicator-container img {
+    width: 50px;
+    height: 50px;
+}
+
 .parent {
     position: relative;
-    height: 70vh;
+    /* height: 70vh; */
     padding: 0 10vw;
 }
 
 .section-container {
-    padding: 0 5vw;
+    /* padding: 0 5vw; */
     height: 40vh;
     width: 100%;
     box-sizing: border-box;
@@ -29,15 +39,18 @@
     cursor: pointer;
 }
 
+.section-waypoint {
+    padding: 15vh 5vw;
+}
+
 section {
-    height: 30vh;
-    scroll-snap-align: start;
-    margin-bottom: 10vh;
+    /* height: 40vh; */
+    scroll-snap-align: center;
     color: black;
-    padding: 15vh 0;
 }
 
 section h3 {
     color: white;
     font-size: 5em;
+    /* padding: 15vh 0; */
 }
