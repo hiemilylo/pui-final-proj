@@ -17,3 +17,7 @@
 .nav-link {
   transition: 0.5s;
 }
+
+.my-hide {
+  color: black!important;
+}

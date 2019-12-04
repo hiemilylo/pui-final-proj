@@ -3,6 +3,8 @@ import { Switch, Route } from "react-router-dom";
 import appRoutes from "./shared/appRoutes";
 
 import NavBar from "./components/NavBar/NavBar";
+import Background from "./components/Background/background";
+
 import Homepage from "./components/Homepage/homepage.js";
 import ProjectScrollList from "./components/ProjectScrollList/projectscrolllist.js";
 // import './App.css';
@@ -15,6 +17,10 @@ function App() {
         <Switch>
           <Route exact path={appRoutes.home}>
             <Homepage/>
+          </Route>
+          <Route exact path={appRoutes.homenew}>
+            <Homepage/>
+            <Background/>
           </Route>
           <Route exact path={appRoutes.projects}>
             <ProjectScrollList/>

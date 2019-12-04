@@ -1,0 +1,25 @@
+#background-gl {
+    z-index: -10;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+
+/* body {
+    background-color: transparent !important;
+} */
+
+#toggle-bck {
+    z-index: 100;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    color: black;
+    background-color: black;
+    /* color: white; */
+    /* width: 20px;
+    height: 12px; */
+}
