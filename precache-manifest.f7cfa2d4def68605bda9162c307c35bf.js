@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6d9d64ae0c5ff7b574291646a03b1c8d",
+    "revision": "8e8da1e309499464ca3280c60e504804",
     "url": "/pui-final-proj/index.html"
   },
   {
-    "revision": "ff40489c1f789c316545",
+    "revision": "28ba2f6c6823c142250b",
     "url": "/pui-final-proj/static/css/2.64a99b10.chunk.css"
   },
   {
-    "revision": "3d04b883bca5d3c322dd",
-    "url": "/pui-final-proj/static/css/main.fd80a4f8.chunk.css"
+    "revision": "db266c071c8c9092599a",
+    "url": "/pui-final-proj/static/css/main.070c2780.chunk.css"
   },
   {
-    "revision": "ff40489c1f789c316545",
-    "url": "/pui-final-proj/static/js/2.05118283.chunk.js"
+    "revision": "28ba2f6c6823c142250b",
+    "url": "/pui-final-proj/static/js/2.1dae978c.chunk.js"
   },
   {
-    "revision": "3d04b883bca5d3c322dd",
-    "url": "/pui-final-proj/static/js/main.333d30ca.chunk.js"
+    "revision": "db266c071c8c9092599a",
+    "url": "/pui-final-proj/static/js/main.bce7342a.chunk.js"
   },
   {
     "revision": "e0d2e59fb4aacbc23178",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1922a8b278d4ee9322687f102e3551e1",
     "url": "/pui-final-proj/static/media/2.1922a8b2.jpg"
+  },
+  {
+    "revision": "32a1dd46d7f9f3c120e7989fd0640a34",
+    "url": "/pui-final-proj/static/media/4.32a1dd46.jpg"
   },
   {
     "revision": "b518bc2a44b187ada6885b5027532e94",
