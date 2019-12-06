@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/pui-final-proj/static/css/main.fd80a4f8.chunk.css",
+    "main.js": "/pui-final-proj/static/js/main.333d30ca.chunk.js",
+    "main.js.map": "/pui-final-proj/static/js/main.333d30ca.chunk.js.map",
+    "runtime-main.js": "/pui-final-proj/static/js/runtime-main.8f83d6a2.js",
+    "runtime-main.js.map": "/pui-final-proj/static/js/runtime-main.8f83d6a2.js.map",
+    "static/css/2.64a99b10.chunk.css": "/pui-final-proj/static/css/2.64a99b10.chunk.css",
+    "static/js/2.05118283.chunk.js": "/pui-final-proj/static/js/2.05118283.chunk.js",
+    "static/js/2.05118283.chunk.js.map": "/pui-final-proj/static/js/2.05118283.chunk.js.map",
+    "index.html": "/pui-final-proj/index.html",
+    "precache-manifest.d808cf423994eb2211183871b10eb63f.js": "/pui-final-proj/precache-manifest.d808cf423994eb2211183871b10eb63f.js",
+    "service-worker.js": "/pui-final-proj/service-worker.js",
+    "static/css/2.64a99b10.chunk.css.map": "/pui-final-proj/static/css/2.64a99b10.chunk.css.map",
+    "static/css/main.fd80a4f8.chunk.css.map": "/pui-final-proj/static/css/main.fd80a4f8.chunk.css.map",
+    "static/media/1.jpg": "/pui-final-proj/static/media/1.26612236.jpg",
+    "static/media/2.jpg": "/pui-final-proj/static/media/2.1922a8b2.jpg",
+    "static/media/p3.jpg": "/pui-final-proj/static/media/p3.b518bc2a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f83d6a2.js",
+    "static/css/2.64a99b10.chunk.css",
+    "static/js/2.05118283.chunk.js",
+    "static/css/main.fd80a4f8.chunk.css",
+    "static/js/main.333d30ca.chunk.js"
+  ]
+}
