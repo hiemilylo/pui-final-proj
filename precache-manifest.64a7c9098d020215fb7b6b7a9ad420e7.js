@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8e8da1e309499464ca3280c60e504804",
+    "revision": "d38a5a86a116c03ade882608b1712795",
     "url": "/pui-final-proj/index.html"
   },
   {
-    "revision": "28ba2f6c6823c142250b",
+    "revision": "ee1cc88a7a0926475e5e",
     "url": "/pui-final-proj/static/css/2.64a99b10.chunk.css"
   },
   {
-    "revision": "db266c071c8c9092599a",
-    "url": "/pui-final-proj/static/css/main.070c2780.chunk.css"
+    "revision": "8036375b14e0532fe7a7",
+    "url": "/pui-final-proj/static/css/main.ad58914d.chunk.css"
   },
   {
-    "revision": "28ba2f6c6823c142250b",
-    "url": "/pui-final-proj/static/js/2.1dae978c.chunk.js"
+    "revision": "ee1cc88a7a0926475e5e",
+    "url": "/pui-final-proj/static/js/2.891d6763.chunk.js"
   },
   {
-    "revision": "db266c071c8c9092599a",
-    "url": "/pui-final-proj/static/js/main.bce7342a.chunk.js"
+    "revision": "8036375b14e0532fe7a7",
+    "url": "/pui-final-proj/static/js/main.4f5f9cec.chunk.js"
   },
   {
     "revision": "e0d2e59fb4aacbc23178",
