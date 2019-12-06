@@ -22,12 +22,14 @@
 
 .parent {
     position: relative;
-    /* height: 70vh; */
-    padding: 0 10vw;
+    display: flex;
+}
+
+.col {
+    flex-direction: column;
 }
 
 .section-container {
-    /* padding: 0 5vw; */
     height: 40vh;
     width: 100%;
     box-sizing: border-box;
@@ -51,6 +53,40 @@ section {
 
 section h3 {
     color: white;
-    font-size: 5em;
+    font-size: 2em;
+    padding-top: 0;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Volkhov', serif;
     /* padding: 15vh 0; */
+}
+
+#mobile-surface {
+    display: none;
+}
+
+.location-desc, .location-name {
+    color: white;
+    font-family: 'Volkhov', serif;
+}
+
+@media screen and (max-width: 600px) {
+    .parent {
+        display: block;
+    }
+
+    .col {
+        margin: 10vh 0;
+    }
+
+    .scroll-indicator-container {
+        display: none;
+    }
+
+    #desktop-surface {
+        display: none;
+    }
+
+    #mobile-surface {
+        display: block;
+    }
 }

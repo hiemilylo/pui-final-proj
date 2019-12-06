@@ -46,12 +46,7 @@ class NavBar extends Component {
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to={appRoutes.projects}>
-                  Projects
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link my-hide" to={appRoutes.homenew}>
-                  New Home
+                  Places
                 </NavLink>
               </li>
             </ul>
