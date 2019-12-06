@@ -5,12 +5,6 @@ import App from './App';
 import { BrowserRouter as Router } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
-const app = (
-    <Router>
-        <App />
-    </Router>
-  );
-
 ReactDOM.render(<Router basename={process.env.PUBLIC_URL}>< App /></Router>,
   document.getElementById('root'));
 

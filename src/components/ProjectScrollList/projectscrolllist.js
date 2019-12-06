@@ -113,7 +113,7 @@ class ProjectScrollList extends Component {
                         </Surface>
                     </div>
                     <div id="mobile-surface">
-                        <Surface width={400} height={400}>
+                        <Surface width={350} height={200}>
                             {this.state.progress > 0 ?
                             <GLTransition
                                 from={this.state.currBackground}
@@ -157,14 +157,14 @@ class ProjectScrollList extends Component {
                 </div>
                 </FadeIn>
                 <FadeIn transitionDuration={1000}>
-                    <div className="col">
+                    <div className="col col-mobile">
                         <h3 className="location-name">{this.state.currLoc}</h3>
                         <p className="location-desc">{this.state.currLocTxt}</p>
                     </div>
                 </FadeIn>
             </div>
             <div className="scroll-indicator-container">
-                <img className="scroll-indicator" src={ScrollDown}/>
+                <img alt="Scroll down indicator" className="scroll-indicator" src={ScrollDown}/>
             </div>
         </div>
     );

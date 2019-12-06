@@ -89,4 +89,16 @@ section h3 {
     #mobile-surface {
         display: block;
     }
+
+    .scroll-container {
+        padding-top: 10vh;
+    }
+
+    .col-mobile {
+        height: 25vh;
+    }
+
+    .section-container {
+        height: 200px;
+    }
 }
